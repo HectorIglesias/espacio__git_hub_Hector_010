@@ -6,7 +6,7 @@ public class Venta {
 	String id_Producto;
 	String id_Vendedor;
 	String id_tienda;
-	int[] fecha_hora = new int[2];
+	String fecha_hora;
 	public String getId_Cliente() {
 		return id_Cliente;
 	}
@@ -31,10 +31,10 @@ public class Venta {
 	public void setId_tienda(String id_tienda) {
 		this.id_tienda = id_tienda;
 	}
-	public int[] getFecha_hora() {
+	public String getFecha_hora() {
 		return fecha_hora;
 	}
-	public void setFecha_hora(int[] fecha_hora) {
+	public void setFecha_hora(String fecha_hora) {
 		this.fecha_hora = fecha_hora;
 	}
 	
